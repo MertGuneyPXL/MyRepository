@@ -1,0 +1,20 @@
+.border {
+    color: yellow;
+}
+
+body {
+    background: url("assets/hout.jpg");
+}
+
+tr:nth-child(even) td:nth-child(even) {
+    background-image: url("assets/witte-marmer.jpg");
+}
+tr:nth-child(odd) td:nth-child(odd) {
+    background-image: url("assets/witte-marmer.jpg");
+}
+tr:nth-child(odd) td:nth-child(even){
+    background-image: url("assets/zwarte-marmer.jpg");
+}
+tr:nth-child(even) td:nth-child(odd) {
+    background-image: url("assets/zwarte-marmer.jpg");
+}
